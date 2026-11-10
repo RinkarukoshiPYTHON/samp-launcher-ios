@@ -1,0 +1,135 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		A20000000000000000000001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001 /* App.swift */; };
+		A20000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* ContentView.swift */; };
+		A20000000000000000000003 /* ServerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000003 /* ServerStore.swift */; };
+		A20000000000000000000004 /* ModsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* ModsView.swift */; };
+		A20000000000000000000005 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* SettingsView.swift */; };
+		A20000000000000000000006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+		A10000000000000000000001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		A10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10000000000000000000003 /* ServerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000004 /* ModsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModsView.swift; sourceTree = "<group>"; };
+		A10000000000000000000005 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A10000000000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		666666666666666666666666 /* SAMP Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SAMP Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXFrameworksBuildPhase section */
+		999999999999999999999999 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+		222222222222222222222222 = {isa = PBXGroup; children = (333333333333333333333333 /* SAMP Launcher */, 444444444444444444444444 /* Products */); sourceTree = "<group>"; };
+		333333333333333333333333 /* SAMP Launcher */ = {isa = PBXGroup; children = (A10000000000000000000001 /* App.swift */, A10000000000000000000002 /* ContentView.swift */, A10000000000000000000003 /* ServerStore.swift */, A10000000000000000000004 /* ModsView.swift */, A10000000000000000000005 /* SettingsView.swift */, A10000000000000000000006 /* Assets.xcassets */); path = "SAMP Launcher"; sourceTree = "<group>"; };
+		444444444444444444444444 /* Products */ = {isa = PBXGroup; children = (666666666666666666666666 /* SAMP Launcher.app */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+		555555555555555555555555 /* SAMP Launcher */ = {isa = PBXNativeTarget; buildConfigurationList = BBBBBBBBBBBBBBBBBBBBBBBB /* Build configuration list for PBXNativeTarget "SAMP Launcher" */; buildPhases = (777777777777777777777777 /* Sources */, 999999999999999999999999 /* Frameworks */, 888888888888888888888888 /* Resources */); buildRules = (); dependencies = (); name = "SAMP Launcher"; productName = "SAMP Launcher"; productReference = 666666666666666666666666 /* SAMP Launcher.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+		111111111111111111111111 /* Project object */ = {isa = PBXProject; attributes = {LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {555555555555555555555555 = {CreatedOnToolsVersion = 15.0; }; }; }; buildConfigurationList = AAAAAAAAAAAAAAAAAAAAAAAA /* Build configuration list for PBXProject "SAMP Launcher" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = 222222222222222222222222; productRefGroup = 444444444444444444444444 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (555555555555555555555555 /* SAMP Launcher */); };
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+		888888888888888888888888 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A20000000000000000000006 /* Assets.xcassets in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+		777777777777777777777777 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A20000000000000000000001 /* App.swift in Sources */, A20000000000000000000002 /* ContentView.swift in Sources */, A20000000000000000000003 /* ServerStore.swift in Sources */, A20000000000000000000004 /* ModsView.swift in Sources */, A20000000000000000000005 /* SettingsView.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+		CCCCCCCCCCCCCCCCCCCCCCCC /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LOCALIZATION_PREFS_STRING = en;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		DDDDDDDDDDDDDDDDDDDDDDDD /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LOCALIZATION_PREFS_STRING = en;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;}; name = Release; };
+		EEEEEEEEEEEEEEEEEEEEEEEE /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavs.samplauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMBED_LIBRARIES_WITH_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
+		FFFFFFFFFFFFFFFFFFFFFFFF /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavs.samplauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMBED_LIBRARIES_WITH_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";}; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+		AAAAAAAAAAAAAAAAAAAAAAAA /* Build configuration list for PBXProject "SAMP Launcher" */ = {isa = XCConfigurationList; buildConfigurations = (CCCCCCCCCCCCCCCCCCCCCCCC /* Debug */, DDDDDDDDDDDDDDDDDDDDDDDD /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		BBBBBBBBBBBBBBBBBBBBBBBB /* Build configuration list for PBXNativeTarget "SAMP Launcher" */ = {isa = XCConfigurationList; buildConfigurations = (EEEEEEEEEEEEEEEEEEEEEEEE /* Debug */, FFFFFFFFFFFFFFFFFFFFFFFF /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 111111111111111111111111 /* Project object */;
+}

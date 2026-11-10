@@ -1,0 +1,36 @@
+name: Build unsigned IPA
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Archive (unsigned)
+        run: |
+          xcodebuild archive \
+            -project "SAMP Launcher.xcodeproj" \
+            -scheme "SAMP Launcher" \
+            -destination "generic/platform=iOS" \
+            -archivePath build/SAMP-Launcher.xcarchive \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY=""
+
+      - name: Create unsigned IPA
+        run: |
+          mkdir -p Payload
+          cp -r "build/SAMP-Launcher.xcarchive/Products/Applications/SAMP Launcher.app" Payload/
+          zip -r SAMP-Launcher.ipa Payload
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SAMP-Launcher-ipa
+          path: SAMP-Launcher.ipa
